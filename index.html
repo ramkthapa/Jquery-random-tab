@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>testaufgabe</title>
+        <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- normalize and reset css -->
+        <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
+        <!-- custom css -->
+        <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <nav>
+                    <ul class="tabs-menu">
+                        <li><a href="#tab-1">Aktuelles</a></li>
+                        <li><a href="#tab-2">Veranstaltungen</a></li>
+                    </ul><!-- tabs-menu ends -->
+                </nav>
+            </div><!-- Container ends -->
+        </header>
+        <section>
+            <div class="tab">
+                <h3 class="d_active accordian" rel="tab-1">Aktuelles</h3>
+                <div id="tab-1" class="tab-content">
+                    <div class="event">
+                        <div class="img-wrapper">    
+                            <img src="assets/img/icon-img1.jpg" alt="#">
+                        </div>
+                        <div class="info">
+                            <span class="date">03.07.2015</span>
+                            <h2>Einladung zur Jahrespressekonferenz</h2>
+                            <p></p>
+                            <a class="more-info" href="#">mehr Informationen</a>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="img-wrapper">
+                            <img src="assets/img/icon-img2.jpg" alt="#">
+                        </div> <!-- img-wrapper ends -->
+                        <div class="info">
+                            <span class="date">03.07.2015</span>
+                            <h2>Studienstart im Juni</h2>
+                            <p>Studie zu rheumatoider Arthritis(RA)</p>
+                            <a class="more-info" href="#">mehr Informationen</a>
+                        </div> <!-- info ends -->
+                    </div> <!-- event ends -->
+                    <div class="event">
+                        <div class="img-wrapper">
+                            <img src="assets/img/icon-img3.jpg" alt="#">
+                        </div> <!-- img-wrapper ends -->
+                        <div class="info">
+                            <span class="date">02.07.2015</span>
+                            <h2>Herzenssache - Patienten warten auf ein Spenderherz</h2>
+                            <p>TV-Tipp: Ein Betrag in der WDR Medianthek</p>
+                            <a class="more-info" href="#">mehr Informationen</a>
+                        </div> <!-- info ends -->   
+                    </div> <!-- event ends -->
+                    <div class="all-news"><a class="more-info" href="#">Alle News in der Übersicht</a></div> 
+                </div> <!-- tab-1 ends -->
+                <h3 class="d_active accordian" rel="tab-2">Veranstaltungen</h3>
+                <div id="tab-2" class="tab-content">
+                    <div class="event">
+                        <div class="img-wrapper">    
+                           <img src="assets/img/icon-img4.jpg" alt="#">
+                        </div>
+                        <div class="info">
+                            <span class="date">03.10.2015</span>
+                            <h2>Everest</h2>
+                            <p></p>
+                            <a class="more-info" href="#">mehr Informationen</a>
+                        </div> <!-- info ends -->
+                   </div> <!-- event ends -->
+                   <div class="event">
+                        <div class="img-wrapper">    
+                         <img src="assets/img/icon-img4.jpg" alt="#">
+                        </div>
+                        <div class="info">
+                            <span class="date">10.07.2015</span>
+                            <h2>Everest</h2>
+                            <p></p>
+                            <a class="more-info" href="#">mehr Informationen</a>
+                        </div> <!-- info ends -->
+                    </div> <!-- event ends -->
+                    <div class="event">
+                        <div class="img-wrapper">    
+                            <img src="assets/img/icon-img4.jpg" alt="#">
+                        </div>
+                        <div class="info">
+                            <span class="date">03.07.2015</span>
+                            <h2>Everest</h2>
+                            <p></p>
+                            <a class="more-info" href="#">mehr Informationen</a>
+                        </div> <!-- info ends -->
+                    </div> <!-- event ends -->
+                 <div class="all-news"><a class="more-info" href="#">Alle News in der Übersicht</a></div>
+                </div><!-- tab-2 ends -->
+            </div>
+        </section>
+        <!-- Jquery necessary plugin -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <!-- Include all compiled plugin, include individual file as needed -->
+        <script type="text/javascript" src="./assets/js/custom-script.js"></script>
+    </body>
+</html>
